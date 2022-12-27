@@ -16,3 +16,5 @@ Content
 5.Webview使用
 
 6.Adapter（BRVAH）
+
+7.create shortcut
