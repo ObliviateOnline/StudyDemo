@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        //动态方式添加一
+        //动态方式添加桌面快捷方式
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N_MR1) {
             val shortScan = ShortcutInfoCompat.Builder(this, "first_page")//唯一标识id
                 .setShortLabel(getString(R.string.first_fragment_label))//短标签
